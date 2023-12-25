@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ---------------------------Nav Bar --------------------------->
+    <div class="title">
+      <h2>Shopping Bag</h2>
+    </div>
+
+    
+<!-- ---------------------------Total shopping aAsket  --------------------------->
+    <div class="Total_Article">
+      <h2>Cart Summary</h2>
+      <span id="form5">0</span>
+      <!-- <input
+        id="form5"
+        min="0"
+        name="Price"
+        value="0"
+        type="currency"
+        style="font-size: medium; text-align: center"
+      /> -->
+    </div>
+
+
+    <!-- ---------------------Shopping Cart ------------------------ -->
+    <div class="Shopping_Cart">
+      <div class="items">
+        <div class="item">
+          <div class="Button_Line">
+            <button class="Delete_Btn">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </button>
+            <button class="Like_Btn">
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="Image1">
+            <img
+              src="./img/Rolex.jpg"
+              alt="Swatch_Rolex"
+              style="max-width: 80px; max-height: 120px"
+            />
+            <h4 class="Unit-Price">540</h4><p>$</p>
+          </div>
+
+          <div class="Description">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+
+          <div class="Qty">
+            <div class="Buttons">
+              <i class="fa fa-minus"></i>
+              <span class="Total_Qty">0</span>
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+
+          <!-- <div class="Total_Price">
+                <input id="form2" min="0" name="Price" value="540" type="currency" style="font-size:medium ;"/> 
+
+            </div> -->
+          
+        </div>
+
+        <div class="item">
+          <div class="Button_Line">
+            <button class="Delete_Btn">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </button>
+
+            <button class="Like_Btn">
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="Image2">
+            <img
+              src="./img/Fossil.jpg"
+              alt="Swatch_Fossil"
+              style="max-width: 80px; max-height: 120px"
+            />
+            <h4 class="Unit-Price">740</h4><p>$</p>
+          </div>
+
+          <div class="Description">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+
+          <div class="Qty">
+            <div class="Buttons">
+              <!-- <button class="btn-1"onclick="this.parentNode.querySelector('input[type=number]').stepDown()"> -->
+                <i class="fa fa-minus"></i>
+                <span class="Total_Qty">0</span>
+                <i class="fa fa-plus"></i>
+              </div>
+          </div>
+
+          <!-- <div class="Total_Price">
+                <input id="form4" min="0" name="Price" value="740" type="currency" style="font-size:medium ;"/> 
+            </div> -->
+        </div>
+      </div>
+
+      
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
